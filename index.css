@@ -1,1 +1,151 @@
+p,
+nav,
+h1,
+h2,
+h3,
+span,
+button,
+a {
+  font-family: "Lato", sans-serif;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: #232938;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.hero nav .responsive-mobile {
+  display: none;
+}
+
+.title p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #92ffd6;
+}
+
+p {
+  color: #fff;
+}
+
+/* NAVBAR */
+
+.navbar {
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80px;
+  width: 100%;
+  background-color: #0a101f;
+}
+
+.navbar .header-logo {
+  margin: 10px 0 10px 0;
+}
+
+.navbar-list-btn {
+  display: flex;
+  gap: 49px;
+}
+
+.navbar-list-btn .navbar-list {
+  list-style: none;
+  display: flex;
+  margin: 32px 0 32px 0;
+  gap: 25px;
+}
+
+.navbar-list-btn .navbar-list li {
+  text-decoration: none;
+}
+
+.navbar-list-btn .navbar-list li a {
+  text-decoration: none;
+  color: #5b9e85;
+  font-size: 12px;
+}
+
+.navbar-list-btn .navbar-list li a:hover {
+  color: #92ffd6;
+}
+
+.navbar .navbar-list-btn .btn-contact button {
+  padding: 20px;
+  color: #fff;
+  background-color: #b60ed5;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+.navbar .navbar-list-btn .btn-contact button:hover {
+  background-color: #dc48f7;
+}
+
+/* EXPERIENCE */
+
+.experience {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 302px;
+}
+
+.experience p {
+  text-align: center;
+}
+
+.btn-start {
+  padding: 20px;
+  color: #fff;
+  background-color: #b60ed5;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-start:hover {
+  background-color: #dc48f7;
+}
+
+/* FOOTER */
+
+.navbar-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a101f;
+  padding: 20px 0 10px 0;
+}
+
+.navbar-list-footer nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.navbar-list-footer nav ul a {
+  text-decoration: none;
+  color: #5b9e85;
+}
+
+.navbar-list-footer nav ul a li {
+  list-style: none;
+  font-size: 14px;
+}
+
+.navbar-list-footer nav ul a li:hover {
+  color: #92ffd6;
+}
+
+.copyright {
+  text-align: center;
+}
