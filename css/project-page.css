@@ -1,0 +1,81 @@
+.project {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  animation: fadeIn 1s;
+}
+
+.project-title {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-title p {
+  width: 100%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #92ffd6;
+}
+
+.project-box {
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 120ch;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  grid-gap: 1.5rem;
+  max-width: 100vw;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.project-box .image-box {
+  transition: 0.5s all ease-in-out;
+}
+
+.project-box .image-box:hover {
+  transform: scale(0.98);
+}
+
+.project-box .image-box img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.project-box .image-box p {
+  display: none;
+}
+
+.project-box .image-box:hover p {
+  display: block;
+  position: absolute;
+  bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  color: #92ffd6;
+  background: rgba(19, 19, 44, 0.9);
+  animation: fadeIn 1s;
+}
+
+/* Keyframe */
+/* Keyframes animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
