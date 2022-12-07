@@ -18,12 +18,12 @@ Visit our website: [Click Here](https://kreatim.karimhasibuan.com/)
 
 - ### Karim Responsibility
 
-| Name       | Category | Status  | Percentage (%) |
-| ---------- | -------- | ------- | -------------- |
-| Project    | Page     | Pending | 100%           |
-| Clients    | Page     | Pending | 0%             |
-| Career     | Page     | Pending | 0%             |
-| Contact Us | Page     | Pending | 0%             |
+| Name       | Category | Status   | Percentage (%) |
+| ---------- | -------- | -------- | -------------- |
+| Project    | Page     | Complete | 100%           |
+| Clients    | Page     | Pending  | 0%             |
+| Career     | Page     | Pending  | 0%             |
+| Contact Us | Page     | Pending  | 0%             |
 
 <hr>
 
