@@ -468,13 +468,51 @@ span {
 .comment p {
   margin: 15px 0 0 0;
 }
+
+/* COLLABORATED */
+
+.collaborated {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a101f;
+  padding-bottom: 40px;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.companies img {
+  height: 50%;
+  width: 50%;
+}
+
+.btn-collaborated {
+  margin-top: 50px;
+  font-weight: bold;
+  color: #5b9e85;
+  background-color: #232938;
+  border: #5b9e85 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.btn-collaborated:hover {
+  background-color: #5b9e85;
+  color: #fff;
+}
+
 /* EXPERIENCE */
 
 .experience {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 70px 302px;
+  padding: 0 302px 40px 302px;
 }
 
 .experience p {
