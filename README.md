@@ -20,7 +20,7 @@ Visit our website: [Click Here](https://kreatim.karimhasibuan.com/)
 
 | Name       | Category | Status  | Percentage (%) |
 | ---------- | -------- | ------- | -------------- |
-| Project    | Page     | Pending | 0%             |
+| Project    | Page     | Pending | 100%           |
 | Clients    | Page     | Pending | 0%             |
 | Career     | Page     | Pending | 0%             |
 | Contact Us | Page     | Pending | 0%             |
