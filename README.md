@@ -12,9 +12,9 @@ Visit our website: [Click Here](https://kreatim.karimhasibuan.com/)
 
 | Name   | Category | Status     | Percentage (%) |
 | ------ | -------- | ---------- | -------------- |
-| Home   | Page     | On Process | 100%            |
-| Navbar | Section  | On Process | 100%            |
-| Footer | Section  | On Process | 100%            |
+| Home   | Page     | Complete | 100%            |
+| Navbar | Section  | Complete | 100%            |
+| Footer | Section  | Complete | 100%            |
 
 - ### Karim Responsibility
 
