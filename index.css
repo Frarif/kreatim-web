@@ -40,7 +40,7 @@ p {
   top: 0;
   position: fixed;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 80px;
   width: 100%;
   background-color: #0a101f;
@@ -88,6 +88,65 @@ p {
 
 .navbar .navbar-list-btn .btn-contact button:hover {
   background-color: #dc48f7;
+}
+
+/* HOME */
+
+.home {
+  display: flex;
+  justify-content: center;
+  padding: 130px 0;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.home .main {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0 0;
+}
+
+.home .main p {
+  margin: 10px 0;
+}
+
+.btn-home {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-inspiration {
+  font-weight: bold;
+  color: #5b9e85;
+  background-color: #232938;
+  border: #5b9e85 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.btn-inspiration:hover {
+  background-color: #5b9e85;
+  color: #fff;
+}
+
+/* SERVICE */
+
+.service {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 12% 30px 12%;
+  background-color: #0a101f;
+}
+
+.service p {
+  margin: 10px 0;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 /* EXPERIENCE */
