@@ -643,6 +643,11 @@ span {
 
   /* SERVICE */
 
+  .service {
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+  }
+
   .main-services p {
     text-align: center;
     font-size: 26px;
@@ -733,6 +738,7 @@ span {
 
   .collaborated .title p {
     font-size: 26px;
+    text-align: center;
   }
 
   .companies {
