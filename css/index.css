@@ -37,6 +37,10 @@ p {
   color: #fff;
 }
 
+.fa-bars {
+  display: none;
+}
+
 span {
   font-weight: bold;
 }
@@ -56,6 +60,11 @@ span {
 
 .navbar .header-logo {
   margin: 10px 0 10px 0;
+}
+
+.burger-icon {
+  display: flex;
+  align-items: center;
 }
 
 .navbar-list-btn {
@@ -565,4 +574,191 @@ span {
 .copyright {
   text-align: center;
   font-size: 14px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* NAVBAR */
+
+  .navbar {
+    justify-content: space-between;
+    padding: 8px 0;
+  }
+
+  .navbar-list-btn .navbar-list li a {
+    display: none;
+  }
+
+  .header-logo {
+    padding-left: 20px;
+  }
+
+  .btn-contact {
+    display: none;
+  }
+
+  .burger-icon {
+    display: flex;
+    padding-right: 20px;
+  }
+
+  .fa-bars {
+    display: flex;
+    color: #fff;
+  }
+
+  /* HOME */
+
+  main {
+    margin-top: 6rem;
+  }
+
+  .main .home-content {
+    display: none;
+  }
+
+  .main-home p {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .home {
+    align-items: center;
+    padding: 30px 50px;
+  }
+
+  .home .main {
+    padding: 0;
+  }
+
+  .img-home {
+    display: none;
+  }
+
+  .btn-home {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* SERVICE */
+
+  .main-services p {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+
+  /* ABOUT */
+
+  .about {
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+  }
+
+  .about-us .title p {
+    font-size: 26px;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-content {
+    display: none;
+  }
+
+  .about-us-list {
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .for-innovation {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about-consultacy {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about-quality {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  /* PROJECT */
+
+  .project {
+    padding: 0 20px 30px 20px;
+  }
+
+  .projects img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .project .title p {
+    font-size: 26px;
+  }
+
+  .project-content {
+    display: none;
+  }
+
+  .btn-project {
+    display: none;
+  }
+
+  /* CLIENT */
+  .client {
+    text-align: center;
+    padding: 0 20px 30px 20px;
+  }
+
+  .rating {
+    flex-direction: column;
+    margin: 0 50px;
+  }
+
+  .client .title p {
+    font-size: 26px;
+  }
+
+  /* CAREER */
+
+  .collaborated .title p {
+    font-size: 26px;
+  }
+
+  .companies {
+    margin-top: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* EXPERIENCE */
+  .experience {
+    padding: 0 20px 30px 20px;
+  }
+
+  .experience .title p {
+    font-size: 26px;
+  }
+
+  /* FOOTER */
+  .navbar-list-footer {
+    display: flex;
+    text-align: center;
+  }
+
+  .navbar-list-footer nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 0;
+  }
 }
