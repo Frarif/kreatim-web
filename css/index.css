@@ -112,15 +112,15 @@ span {
 .home {
   display: flex;
   justify-content: center;
-  padding: 50px 0;
-  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 50px;
   gap: 50px;
 }
 
 .home .main {
   display: flex;
   flex-direction: column;
-  padding: 40px 0 0 0;
 }
 
 .home .main p {
@@ -163,6 +163,10 @@ span {
 
 .services {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: stretch;
+  align-content: stretch;
   gap: 30px;
   margin-top: 20px;
 }
@@ -280,7 +284,6 @@ span {
 .about {
   display: flex;
   padding: 40px 180px;
-  justify-content: center;
   gap: 50px;
 }
 
@@ -487,17 +490,16 @@ span {
   justify-content: center;
   background-color: #0a101f;
   padding-bottom: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .companies {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 30px;
-}
-
-.companies img {
-  height: 50%;
-  width: 50%;
 }
 
 .btn-collaborated {
@@ -553,7 +555,7 @@ span {
 
 .navbar-list-footer nav ul {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -653,10 +655,6 @@ span {
     font-size: 26px;
   }
 
-  .services {
-    flex-direction: column;
-  }
-
   /* ABOUT */
 
   .about {
@@ -739,12 +737,6 @@ span {
   .collaborated .title p {
     font-size: 26px;
     text-align: center;
-  }
-
-  .companies {
-    margin-top: 20px;
-    align-items: center;
-    flex-direction: column;
   }
 
   /* EXPERIENCE */
