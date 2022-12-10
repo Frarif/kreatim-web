@@ -10,11 +10,11 @@ Visit our website: [Click Here](https://kreatim.karimhasibuan.com/)
 
 - ### Arif Responsibility
 
-| Name   | Category | Status     | Percentage (%) |
-| ------ | -------- | ---------- | -------------- |
-| Home   | Page     | Complete | 100%            |
-| Navbar | Section  | Complete | 100%            |
-| Footer | Section  | Complete | 100%            |
+| Name   | Category | Status   | Percentage (%) |
+| ------ | -------- | -------- | -------------- |
+| Home   | Page     | Complete | 100%           |
+| Navbar | Section  | Complete | 100%           |
+| Footer | Section  | Complete | 100%           |
 
 - ### Karim Responsibility
 
@@ -23,7 +23,7 @@ Visit our website: [Click Here](https://kreatim.karimhasibuan.com/)
 | Project    | Page     | Complete | 100%           |
 | Clients    | Page     | Pending  | 0%             |
 | Career     | Page     | Pending  | 0%             |
-| Contact Us | Page     | Pending  | 0%             |
+| Contact Us | Page     | Pending  | 100%           |
 
 <hr>
 
