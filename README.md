@@ -22,7 +22,7 @@ Visit our website: [Click Here](https://kreatim.karimhasibuan.com/)
 | ------------ | -------- | -------- | -------------- |
 | Project      | Page     | Complete | 100%           |
 | Clients      | Page     | Complete | 100%           |
-| Collaborated | Page     | Pending  | 0%             |
+| Collaborated | Page     | Complete | 100%           |
 | Contact Us   | Page     | Complete | 100%           |
 
 <hr>
