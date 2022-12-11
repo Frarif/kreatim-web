@@ -281,6 +281,12 @@ span {
   padding: 10px;
 }
 
+.services .ui-design:hover,
+.services .ui-ux-design:hover,
+.services .web-development:hover {
+  background-color: #cefff4;
+}
+
 /* ABOUT */
 
 .about {
