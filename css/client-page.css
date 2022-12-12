@@ -48,3 +48,7 @@
   background-color: #ad4ad5;
   border-radius: 10px;
 }
+
+.client-box-content:hover {
+  background-color: #9b24ca;
+}

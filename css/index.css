@@ -281,6 +281,12 @@ span {
   padding: 10px;
 }
 
+.services .ui-design:hover,
+.services .ui-ux-design:hover,
+.services .web-development:hover {
+  background-color: #cefff4;
+}
+
 /* ABOUT */
 
 .about {
@@ -481,6 +487,12 @@ span {
 
 .comment p {
   margin: 15px 0 0 0;
+}
+
+.client-1:hover,
+.client-2:hover,
+.client-3:hover {
+  background-color: #9b24ca;
 }
 
 /* COLLABORATED */
